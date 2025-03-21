@@ -39,9 +39,11 @@ for (let index = 0; index < MyArray.length; index++) {//<= undefined
 // }
 for (let index = 0; index <=20; index++) {
     if (index==5) {
-        console.log(`Detected 5`);
+        // console.log(`Detected 5`);
         continue;//index 5 will be skipped
     }
-    console.log(`Value of i is ${index}`);
+    // console.log(`Value of i is ${index}`);
 }
+
+
 

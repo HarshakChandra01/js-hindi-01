@@ -30,8 +30,18 @@ for (let index = 0; index < MyArray.length; index++) {//<= undefined
 
 // break and continue keywords
 
-for (let index = 0; index <=20index++) {
-    const element = array[index];
-    
+// for (let index = 0; index <=20; index++) {
+//     if (index==5) {
+//         console.log(`Detected 5`);
+//         break;
+//     }
+//     console.log(`Value of i is ${index}`);
+// }
+for (let index = 0; index <=20; index++) {
+    if (index==5) {
+        console.log(`Detected 5`);
+        continue;//index 5 will be skipped
+    }
+    console.log(`Value of i is ${index}`);
 }
 
